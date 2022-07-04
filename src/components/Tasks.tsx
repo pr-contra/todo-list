@@ -2,7 +2,6 @@ import { Task } from '../types/tasks';
 import { Empty } from './Empty';
 import { Info } from './Info';
 import { List } from './List';
-import styles from './Tasks.module.css';
 
 type TaskProps = {
   tasks: Task[];
@@ -10,7 +9,7 @@ type TaskProps = {
 
 export const Tasks = ({ tasks }: TaskProps) => {
   return (
-    <section className={styles.test}>
+    <section>
       <Info />
       {tasks && tasks.length > 0 ? <List tasks={tasks} /> : <Empty />}
     </section>
