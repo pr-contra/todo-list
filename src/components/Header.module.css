@@ -1,0 +1,20 @@
+.header {
+  background: var(--gray-700);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.title {
+  text-transform: lowercase;
+  color: var(--blue);
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.title span {
+  color: var(--purple-dark);
+}
