@@ -1,10 +1,10 @@
-.search {
+.newtask {
   display: flex;
   gap: 0.8rem;
   transform: translateY(-50%);
 }
 
-.search__input {
+.newtask__input {
   flex-grow: 1;
   background-color: var(--gray-500);
   outline: none;
@@ -14,12 +14,12 @@
   color: var(--white);
 }
 
-.search__input:active,
-.search__input:focus {
+.newtask__input:active,
+.newtask__input:focus {
   border: 1px solid var(--purple-dark);
 }
 
-.search__button {
+.newtask__button {
   background-color: var(--blue-dark);
   color: var(--white);
   display: flex;
@@ -34,7 +34,7 @@
   transition: background-color 0.1s;
 }
 
-.search__button:hover {
+.newtask__button:hover {
   background-color: var(--blue);
   cursor: pointer;
 }

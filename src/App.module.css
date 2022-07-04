@@ -2,4 +2,7 @@
   max-width: 736px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }

@@ -1,14 +1,14 @@
 import { PlusCircle } from 'phosphor-react';
-import styles from './Search.module.css';
+import styles from './Newtask.module.css';
 
-export const Search = () => {
+export const Newtask = () => {
   return (
-    <div className={styles.search}>
+    <div className={styles.newtask}>
       <input
-        className={styles.search__input}
+        className={styles.newtask__input}
         placeholder="Adicione uma nova tarefa"
       ></input>
-      <button className={styles.search__button}>
+      <button className={styles.newtask__button}>
         <p>Criar</p>
         <PlusCircle size={20} />
       </button>
