@@ -16,3 +16,5 @@ The App consists in a simple TODO list, built with ReactJS.
 - ReactJS
 - Typescript
 - CSS Modules
+
+<img src="./src/assets/demo.png"/>
