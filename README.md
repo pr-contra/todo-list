@@ -1,4 +1,4 @@
-# TODO-DO list App - Rocketseat Ignite challenge #1
+# TODO list App - Rocketseat Ignite challenge #1
 
 This repository was created as a challenge during the Rocketseat's Ignite course.
 
@@ -15,4 +15,4 @@ The App consists in a simple TODO list, built with ReactJS.
 
 - ReactJS
 - Typescript
-- CSS
+- CSS Modules
