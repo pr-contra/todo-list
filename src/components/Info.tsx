@@ -8,6 +8,10 @@ type InfoProps = {
 export const Info = ({ tasks }: InfoProps) => {
   const totalTasks = tasks.length;
   const doneTasks = tasks.filter(task => task.done === true).length;
+  // const doneTasks2 = tasks.reduce(
+  //   (total, task) => (task.done ? total + 1 : total),
+  //   0,
+  // );
 
   return (
     <section className={styles.info}>

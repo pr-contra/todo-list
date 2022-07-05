@@ -13,7 +13,7 @@ export const Item = ({ task, removeTask, updateTask }: ItemProps) => {
   return (
     <div className={styles.item}>
       <label className={styles.checkbox}>
-        <input type="checkbox" onClick={() => updateTask(id)} checked={done} />
+        <input type="checkbox" onChange={() => updateTask(id)} checked={done} />
         <span className={styles.checkbox__checkmark}></span>
         <p>{content}</p>
       </label>
